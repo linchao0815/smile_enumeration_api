@@ -15,20 +15,14 @@ This plugin exposes project enumerations defined in Smile's custom field format 
 
 GET /smile_enumerations/project.json
 
+### Example Curl
 
-### Required Headers
-
-X-Redmine-API-Key: your_api_key
-
+# use X-Redmine-API-Key header
+curl -H "X-Redmine-API-Key: your_api_key" \
+     http://your-redmine-domain/redmine/smile_enumerations/project.json
 
 Replace `your_api_key` with a valid Redmine API key for an authenticated user.
 
-### Example Curl
-
-```bash
-curl -H "X-Redmine-API-Key: your_api_key" \
-     https://your-redmine-domain/smile_enumerations/project.json
-```
 ## Author
 
 linchao chang
